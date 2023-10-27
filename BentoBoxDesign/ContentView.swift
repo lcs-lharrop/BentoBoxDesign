@@ -9,16 +9,22 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .resizable()
-                .scaledToFit()
-                .frame(width: 50)
-                .foregroundColor(/*@START_MENU_TOKEN@*/.blue/*@END_MENU_TOKEN@*/)
-            Text("Hello, world!")
-            Image("gpu")
+        HStack {
+            Rectangle()
+            VStack {
+                Rectangle()
+                Rectangle()
+                    .frame(height: 150)
+                Rectangle()
+                    .frame(height: 50)
+            }
+            .frame(width: 200)
+            
+            Rectangle()
+            
         }
         .padding()
+        .frame(width: 500, height: 350)
     }
 }
 
