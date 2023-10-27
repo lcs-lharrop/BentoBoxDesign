@@ -10,21 +10,52 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         HStack {
-            Rectangle()
             VStack {
-                Rectangle()
-                Rectangle()
-                    .frame(height: 150)
-                Rectangle()
+                HStack {
+                    BentoBoxPortion()
+                        .frame(height: 60)
+                    BentoBoxPortion()
+                        .frame(height: 60)
+                }
+                BentoBoxPortion()
+                    .frame(height: 125)
+                HStack {
+                    BentoBoxPortion()
+                        .frame(height: 60)
+                    BentoBoxPortion()
+                        .frame(height: 60)
+                }
+                BentoBoxPortion()
+                    .frame(height: 50)
+            }
+
+            VStack {
+                HStack {
+                    BentoBoxPortion()
+                        .frame(width: 60)
+                    BentoBoxPortion()
+                }
+                        .frame(height: 60)
+                
+
+                BentoBoxPortion()
+                BentoBoxPortion()
                     .frame(height: 50)
             }
             .frame(width: 200)
             
-            Rectangle()
+            VStack {
+                BentoBoxPortion()
+                HStack {
+                    BentoBoxPortion()
+                }
+                BentoBoxPortion()
+            }
             
         }
         .padding()
         .frame(width: 500, height: 350)
+        
     }
 }
 

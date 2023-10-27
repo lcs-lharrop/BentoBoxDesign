@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3B704F302AEBF4DB00C93A9A /* BentoBoxPortion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B704F2F2AEBF4DA00C93A9A /* BentoBoxPortion.swift */; };
 		3B9B98A42AEBE7FB000DB136 /* BentoBoxDesignApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B9B98A32AEBE7FB000DB136 /* BentoBoxDesignApp.swift */; };
 		3B9B98A62AEBE7FB000DB136 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B9B98A52AEBE7FB000DB136 /* ContentView.swift */; };
 		3B9B98A82AEBE7FE000DB136 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B9B98A72AEBE7FE000DB136 /* Assets.xcassets */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3B704F2F2AEBF4DA00C93A9A /* BentoBoxPortion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BentoBoxPortion.swift; sourceTree = "<group>"; };
 		3B9B98A02AEBE7FB000DB136 /* BentoBoxDesign.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BentoBoxDesign.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B9B98A32AEBE7FB000DB136 /* BentoBoxDesignApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BentoBoxDesignApp.swift; sourceTree = "<group>"; };
 		3B9B98A52AEBE7FB000DB136 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -100,6 +102,7 @@
 				3B9B98A72AEBE7FE000DB136 /* Assets.xcassets */,
 				3B9B98AC2AEBE7FE000DB136 /* BentoBoxDesign.entitlements */,
 				3B9B98A92AEBE7FE000DB136 /* Preview Content */,
+				3B704F2F2AEBF4DA00C93A9A /* BentoBoxPortion.swift */,
 			);
 			path = BentoBoxDesign;
 			sourceTree = "<group>";
@@ -261,6 +264,7 @@
 			files = (
 				3B9B98A62AEBE7FB000DB136 /* ContentView.swift in Sources */,
 				3B9B98A42AEBE7FB000DB136 /* BentoBoxDesignApp.swift in Sources */,
+				3B704F302AEBF4DB00C93A9A /* BentoBoxPortion.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -425,8 +429,10 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"BentoBoxDesign/Preview Content\"";
+				DEVELOPMENT_TEAM = 392SWFWDCR;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Bento;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -450,8 +456,10 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"BentoBoxDesign/Preview Content\"";
+				DEVELOPMENT_TEAM = 392SWFWDCR;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Bento;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
